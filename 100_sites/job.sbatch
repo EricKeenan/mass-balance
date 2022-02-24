@@ -5,7 +5,7 @@
 #
 #SBATCH --nodes=1				#	Number of requested nodes per task
 #SBATCH --account=ucb204_summit1		#	Account
-#SBATCH --time=1-02:00:00				#	Max wall time
+#SBATCH --time=4-00:00:00				#	Max wall time
 #SBATCH --qos=long				#	Specify QOS
 #SBATCH --partition=shas		#	Specify Summit haswell nodes
 #SBATCH --ntasks=1				#	Number of tasks per job
